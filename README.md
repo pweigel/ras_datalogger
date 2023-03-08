@@ -1,6 +1,14 @@
-## README.md ##
+# ras_datalogger #
 A simple datalogging tool for RAS 
 
+## pvServer Configuration ##
+```yaml
+"server_address": 127.0.0.1,
+"server_port": 9001,
+"server_namespace": "/pvServer",
+```
+
+## pv Configuration ##
 Here is an example PV configuration for storing values as the pvServer receives them:
 ```yaml
 "device:get_pressure" : {
