@@ -1,0 +1,24 @@
+{  
+  # pvServer settings
+  "server_address": 127.0.0.1,
+  "server_port": 9001,
+  "server_namespace": "/pvServer",
+
+  "buffer_size": 64,
+  "data_path": 'data/',  # Folder to save h5 files in
+
+  "pvs" : {
+    "testIOC:test3" : {
+      "value_dtype": "f8",
+      "time_dtype": "f8",
+      "scan_type": "continuous",
+      "sample_rate":
+    },
+    "testIOC:time" : {
+      "value_dtype": "f8",
+      "time_dtype": "f8",
+      "scan_type": "sample",
+      "sample_rate": 1,
+    },
+  }
+}

@@ -53,7 +53,7 @@ def create_data_file(data_folder_path, pvname, dtypes):
     f.close()
 
 # Load the configuration
-config_file = 'config.yaml'
+config_file = 'example_config.yaml'
 config = load_config(config_file)
 
 # Server information
